@@ -1,0 +1,263 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 64px;
+  min-height: 100vh;
+  background-color:#FAFAFA;
+}
+
+/*Nav e Footer*/
+
+nav{
+  display: flex;
+  min-width: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 165px 54px;
+}
+
+#nav-here {
+  color: #5FB4A2;
+}
+
+nav, footer{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav ul, footer ul {
+  min-width: 279px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav li, footer li {
+  list-style: none;
+}
+
+nav li a, footer li a{
+  text-decoration: none;
+}
+
+.nav-color a{
+  color: #33323D;
+}
+
+footer {
+  background-color: #33323D;
+}
+
+.footer-color a{
+  color: #fff;  
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  height: 80px;
+  margin: 0px 165px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer-right img{
+  margin-right: 10px;
+}
+
+.footer-left {
+  min-width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Black and White Buttons*/
+
+.btn-bw-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #33323D;
+
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323D;
+}
+
+.btn-bw-style:hover {
+  color: #FAFAFA;
+  background-color: #33323D;
+  
+}
+
+.contact-me{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.contact-me h1{
+  font-family: 'Ibarra Real Nova', serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+}
+
+.btn-contact-me{
+  width: 168px;
+  height: 48px;
+}
+
+/*Portfolio Pages - CSS*/
+
+.section-container {
+  margin-top: 115px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.small-section {
+  border-top: 1px solid #DCDCDE;
+  border-bottom: 1px solid #DCDCDE;
+
+  padding: 48px 0px;
+  margin-right: 125px;
+
+  height: 498px;
+}
+
+.small-section h1{
+  font-family: 'Ibarra Real Nova', serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+
+  margin-bottom: 29px;
+}
+
+.small-section p{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323D;
+  margin-bottom: 24px;
+}
+
+.small-section span{
+font-family: 'Public Sans', sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 35px;
+color: #5FB4A2;
+}
+
+.btn-visit {
+  height: 48px;
+  width: 178px;
+
+  margin: 48px 0px;
+}
+
+.big-section h1{
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.285714px;
+
+  color: #33323D;
+
+  margin-bottom: 28px;
+}
+
+.big-section p{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323D;
+  opacity: 0.8;
+
+  margin-bottom: 40px;
+}
+
+.big-section img{
+  margin-bottom: 32px;
+}
+
+.other-projects {
+  border-top: 1px solid #DCDCDE;
+  border-bottom: 1px solid #DCDCDE;
+  padding: 32px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.other-projects a{
+  text-decoration: none;
+  color: #33323D;
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  max-width: 200px;
+}
+
+.project h1{
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.285714px;
+}
+
+.project span{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 0.5;
+}
+
+.left-img{
+  margin-right: 32px;
+}
+
+.right-img{
+  margin-left: 32px;
+}
+
+.right-text {
+  text-align: right;
+}
+
+p a{
+  color: #33323D;
+}

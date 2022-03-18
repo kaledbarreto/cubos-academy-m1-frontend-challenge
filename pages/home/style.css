@@ -1,0 +1,157 @@
+.container {
+  padding: 0px 165px;
+}
+
+.home-main{
+  min-height: 78vh;
+  width: 100%;
+  background-image: url('../../assets/home/image-homepage-hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.home-card{
+  background-color: #FAFAFA;
+  width: 650px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column; 
+}
+
+.card-text {
+  font-family: 'Ibarra Real Nova', serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  letter-spacing: -0.446429px;
+  color: #33323D;
+
+  margin:  57px 27px 53px 27px;
+}
+
+.btn-container{
+  height: 100%;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.button a{
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-left{
+  width: 48px;
+  height: 48px;
+  background-color: #1D3444;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-left img{
+  width: 16px;
+  height: 12px;
+}
+
+.invisible {
+  display: none;
+}
+
+a:hover .visible{
+  display: none;
+}
+
+a:hover .invisible{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover .button-left{
+  background-color: #56A292;
+}
+
+.button-right{
+  width: 152px;
+  height: 48px;
+  background-color: #203A4C;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover .button-right{
+  background-color: #5FB4A2;
+}
+
+.button-right span{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.home-about {
+  margin-top: 150px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.home-about img {
+  height: 700px;
+  width: 640px;
+  margin: 0px 140px 150px 0px;
+}
+
+.about-text {
+  max-height: 700px;
+  border-top: 1px solid #DCDCDE;
+  border-bottom: 1px solid #DCDCDE;
+  padding: 50px 0px 45px;
+} 
+
+.about-text h1{
+  font-family: 'Ibarra Real Nova', serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+
+  margin-bottom: 28px;
+}
+
+.about-text p{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #33323D;
+  margin-bottom: 24px;
+}
+
+.btn-about-container{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-about{
+  width: 204px;
+  height: 48px;
+}
+
+

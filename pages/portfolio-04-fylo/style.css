@@ -1,0 +1,21 @@
+nav {
+  margin-bottom: 0;
+}
+
+.container {
+  padding: 94px 165px 150px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-me {
+  margin: 115px 0px 0px 0px;
+}
+
+.project img{
+  height: 16px;
+  width: 8px;
+}
